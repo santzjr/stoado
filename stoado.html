@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoado - Gamified Reward System</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Stoado</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+      <li class="nav-item"><a class="nav-link" href="#rewards">Rewards</a></li>
+      <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+      <li class="nav-item"><a class="nav-link" href="#help">Help</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Homepage -->
+<section class="hero text-center">
+  <div class="container">
+    <h1>Join the Stoado Community and Earn Rewards!</h1>
+    <p>Engage with the community and get rewarded for your participation.</p>
+    <a href="#community" class="btn btn-primary">Get Started</a>
+  </div>
+</section>
+
+<!-- Features Overview -->
+<section class="features text-center py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="points.png" alt="Points for Participation" class="img-fluid">
+        <h3>Points for Participation</h3>
+        <p>Earn points for posting in forums, attending events, and more.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="badges.png" alt="Achievements and Badges" class="img-fluid">
+        <h3>Achievements and Badges</h3>
+        <p>Unlock badges and achievements for reaching milestones.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="rewards.png" alt="Rewards" class="img-fluid">
+        <h3>Rewards</h3>
+        <p>Redeem points for discounts, exclusive features, and event tickets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Community Page -->
+<section id="community" class="community py-5">
+  <div class="container">
+    <h2 class="text-center">Community Hub</h2>
+    <ul class="nav nav-tabs" id="communityTab" role="tablist">
+      <li class="nav-item"><a class="nav-link active" id="forums-tab" data-toggle="tab" href="#forums" role="tab" aria-controls="forums" aria-selected="true">Forums</a></li>
+      <li class="nav-item"><a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">Events</a></li>
+      <li class="nav-item"><a class="nav-link" id="leaderboard-tab" data-toggle="tab" href="#leaderboard" role="tab" aria-controls="leaderboard" aria-selected="false">Leaderboard</a></li>
+    </ul>
+    <div class="tab-content" id="communityTabContent">
+      <div class="tab-pane fade show active" id="forums" role="tabpanel" aria-labelledby="forums-tab">
+        <h3>Forums</h3>
+        <p>Join the discussion and share your thoughts.</p>
+        <a href="#" class="btn btn-secondary">Start a New Discussion</a>
+      </div>
+      <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+        <h3>Upcoming Events</h3>
+        <p>Check out our upcoming webinars, meetups, and workshops.</p>
+      </div>
+      <div class="tab-pane fade" id="leaderboard" role="tabpanel" aria-labelledby="leaderboard-tab">
+        <h3>Top Participants</h3>
+        <p>See who’s leading the way in community participation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Rewards Page -->
+<section id="rewards" class="rewards py-5">
+  <div class="container">
+    <h2 class="text-center">Earn and Redeem Rewards</h2>
+    <div class="row">
+      <div class="col-md-6 justify-content-center">
+        <h3>Points Overview</h3>
+        <p>Current Points Balance: 1200</p>
+        <p>Recent Activities:</p>
+        <ul>
+          <li>Posted in Forums: +50 points</li>
+          <li>Attended Event: +100 points</li>
+          <li>Contributed to Discussion: +30 points</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Rewards Catalog</h3>
+        <p>Redeem your points for amazing rewards.</p>
+        <ul>
+          <li>Discount Voucher: 500 points</li>
+          <li>Exclusive Feature Access: 1000 points</li>
+          <li>Event Ticket: 700 points</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Profile Page -->
+<section id="profile" class="profile py-5">
+  <div class="container">
+    <h2 class="text-center">Your Profile</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="profile-pic.png" alt="Profile Picture" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-8">
+        <h3>Username: SOSA</h3>
+        <p>Bio: Passionate Stoado user and community member.</p>
+        <p>Points Balance: 1200</p>
+        <p>Achievements: Community Leader, Top Contributor</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Help Page -->
+<section id="help" class="help py-5">
+  <div class="container">
+    <h2 class="text-center">Help and Support</h2>
+    <div class="accordion" id="helpAccordion">
+      <div class="card">
+        <div class="card-header" id="faqOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              How do I earn points?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="faqOne" data-parent="#helpAccordion">
+          <div class="card-body">
+            You can earn points by participating in forums, attending events, and contributing to discussions.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="faqTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How do I redeem my points?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="faqTwo" data-parent="#helpAccordion">
+          <div class="card-body">
+            You can redeem your points for discounts, exclusive feature access, and event tickets in the Rewards Catalog.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+  <div class="container">
+    <p>&copy; 2024 Stoado. All rights reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">About</a></li>
+      <li class="list-inline-item"><a href="#">Contact</a></li>
+      <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
